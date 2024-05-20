@@ -1,0 +1,50 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Hi there", "Hey", "Hola"],
+      "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?", "Hello, thanks for asking"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+      "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon.", "See you!", "Have a nice day"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+    {
+      "tag": "chatbot",
+      "patterns": ["Who built this chatbot?", "Tell me about Chatbot", "What is this chatbot name?"],
+      "responses": ["Hi, I am kirito_Chatbot designed by Mohamed.", "Thanks for asking. I am designed by Mohamed saif.", "I am a kirito."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["What is your location?", "Where are you located?", "What is your address?"],
+      "responses": ["We are from Sudan.", "You can visit Sudan when the war is over to meet us", "Thans for your Interest. I live in Cairo for now."]
+    },
+    {
+      "tag": "connect",
+      "patterns": ["Give me your social media accounts link", "Where can we connect", "How can i reach out to you?", "Is there any way we can connect"],
+      "responses": ["You can connect me on Linkedin or Github \n Linkedin - https://www.linkedin.com/in/mohamed-ali-871a6b176?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BcTdS8a8SQtSM%2F85i642YGQ%3D%3D/ \n Github - https://github.com/Kirito99x", "You can visit my upwork: https://www.upwork.com/freelancers/mohammeds320?s=1110580759050571776"]
+    },
+    {
+      "tag": "movies",
+      "patterns": ["Which is your favourite movie?", "Suggest me some movies", "Recommend movies"],
+      "responses": ["The dark knight", "Fast 5", "Now you see me 2", "The avengers end game", "Transporter", "creed", "Big hero 6", "The pursit of happiness"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["Who are you?", "Tell me about Yourself", "What is this?"],
+      "responses": ["Hi, I am Mohammed. Nice to meet you. I made this chatbot for fun and practice.", "Thanks for asking. I am Mohamed saif, Mechtronics/AI engineer"]
+    }
+  ]
+}
+
